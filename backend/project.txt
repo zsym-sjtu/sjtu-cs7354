@@ -1,1 +1,2 @@
 This is the start of our project.
+We've switched to another branch.
