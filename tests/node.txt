@@ -1,2 +1,3 @@
 This is a set of notes for our project.
 Experiment: Trying a new approach for optimization.
+Update: The new approach seems to be working well.
