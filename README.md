@@ -58,7 +58,7 @@ dev分支上进行了4次提交（修改backend文件夹下project.txt），但�
 * 		修复了PROJECT_OVERVIEW.md中的一个小错误。
 但在提交之后，你意识到可能更有意义地组织这些提交。特别是，你想：
 * 将PROJECT_OVERVIEW.md的两次更改合并为一个提交。
-* 将INSTALL_GUIDE.md和CONTRIBUTING_GUIDE.md的更改交换位置，使得安装指南在贡献指南之前。
+* 将INSTALL_GUIDE.md和CONTRIBUTING_GUIDE.md的更改交换位置，使得安装指南在贡献指南之后。
 你的任务是，正确地重组这些提交，然后将更改合并回main分支。  
 **操作指示：**
 1. 切换到documentation分支（3’）
