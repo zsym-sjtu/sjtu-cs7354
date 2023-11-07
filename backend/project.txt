@@ -1,5 +1,8 @@
 This is the start of our project.
 We've switched to another branch.
+<<<<<<< HEAD
 We've added some initial functions.
 This is the start of our project.
 This shouldn't be here.
+=======
+>>>>>>> parent of f9ae8ba (Add new content)
