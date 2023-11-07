@@ -1,0 +1,104 @@
+# Task 1
+
+## 1
+git checkout -b feature-newFunc
+
+## 2
+### i
+vim mydiary/diary.txt
+git commit -a -m "Added diary entry for feature work"
+
+### ii
+vim mydiary/diary.txt
+git commit -a -m "Added another diary entry for feature work"
+
+## 3
+git rebase -i HEAD~2
+git checkout main
+git merge feature-newFunc
+git push
+
+
+
+# Task 2
+## 1
+git checkout main
+git pull
+
+## 2
+git checkout experiment
+
+## 3
+git log
+git checkout main
+git cherry-pick d5831
+
+## 4
+git push
+
+
+
+# Task 3
+## 1
+git checkout dev
+
+## 2
+git log
+
+## 3
+git revert HEAD~2
+
+## 4
+git commit -a -m "Revert to Add new content"
+
+## 5
+git status
+
+## 6
+git push
+
+
+
+# Task 4
+## 1
+git checkout main
+vim frontend/styles.css
+git commit -a -m "Change body font."
+
+## 2
+git checkout feature-upload
+
+## 3
+git diff main
+
+## 4
+git checkout main
+git merge feature-upload
+vim frontend/styles.css
+git add frontend/styles.css
+git status
+git commit
+git push
+
+
+
+# Task 5
+## 1
+git checkout documentation
+
+## 2
+git rebase -i HEAD~4
+
+## 3
+pick 2fc2e17 Add contributing guide
+pick 9cf2a7d Add installation guide
+pick 1d3dee7 Update project overview with new feature description
+fixup 9caa536 Fix description in project overview
+
+## 4
+git checkout main
+git merge documentation
+
+## 5
+git push
+
